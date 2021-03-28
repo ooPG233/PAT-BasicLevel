@@ -1,2 +1,28 @@
 {
+    "python.autoComplete.addBrackets":true,
+    "python.jediEnabled": true,
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.wordBasedSuggestions": false
+    },
+    "python.autoComplete.extraPaths": [
+    "python.autoComplete.addBrackets"
+    ],
+    "python.languageServer": "Jedi",
+    "python.analysis.extraPaths": [
+        "python.autoComplete.addBrackets"
+    ],
+    "python.analysis.completeFunctionParens": true
 }
