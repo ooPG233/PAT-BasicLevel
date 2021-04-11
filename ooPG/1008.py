@@ -1,5 +1,5 @@
 def main():
-    N,M=(int(x) for x in input().split())
+    N,M=(int(x) for x in input().split()) #不是元组推导式，而是生成器对象
     input_array=[x for x in input().split()]
     M=M%N #避免出现 M > N 的情况
     output_array=input_array[-M:]+input_array[:-M] #后M位移至头部
