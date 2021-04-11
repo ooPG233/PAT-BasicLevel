@@ -8,5 +8,4 @@ list_word=[]
 for i in str_word:
     if i in dic:
         list_word.append(dic[i])
-str_lian=" "
-print(str_lian.join(list_word))
+print(" ".join(list_word))
